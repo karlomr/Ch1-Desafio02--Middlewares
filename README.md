@@ -3,9 +3,9 @@
 
 # 💻 Sobre o desafio
 
-Nesse exercício demos enfoque de middlewares no Express. Dessa forma você será capaz de fixar mais ainda os conhecimentos obtidos até agora. 
+Nesse exercício demos enfoque de middlewares no Express. 
 
-Para facilitar um pouco mais do conhecimento da regra de negócio, você irá trabalhar com a mesma aplicação do desafio anterior: uma aplicação para gerenciar tarefas (ou *todos*) mas com algumas mudanças.
+Consiste uma aplicação para gerenciar tarefas (ou *todos*) mas com algumas mudanças.
 
 Será permitida a criação de um usuário com `name` e `username`, bem como fazer o CRUD de *todos*:
 
@@ -16,16 +16,6 @@ Será permitida a criação de um usuário com `name` e `username`, b
 - Excluir um *todo*;
 
 Tudo isso para cada usuário em específico. Além disso, dessa vez teremos um plano grátis onde o usuário só pode criar até dez *todos* e um plano Pro que irá permitir criar *todos* ilimitados, isso tudo usando middlewares para fazer as validações necessárias.
-
-A seguir veremos com mais detalhes o que e como precisa ser feito 🚀
-
-
-## Middlewares da aplicação
-
-Com o template já clonado e o arquivo `index.js` aberto, você deve completar onde não possui código com o código para atingir os objetivos de cada teste.
-
-Nesse desafio não será necessário alterar o código de nenhuma rota, **apenas dos middlewares**. Os testes iram também testar o funcionamento das rotas mas o resultado depende apenas da dos middlewares.
-
 
 ### checksExistsUserAccount
 
@@ -48,8 +38,6 @@ Esse middleware possui um funcionamento semelhante ao middleware `checksExistsUs
 ## Específicação dos testes
 
 Em cada teste, tem uma breve descrição no que sua aplicação deve cumprir para que o teste passe.
-
-Caso você tenha dúvidas quanto ao que são os testes, e como interpretá-los, dê uma olhada em **[nosso FAQ](https://www.notion.so/FAQ-Desafios-ddd8fcdf2339436a816a0d9e45767664)**
 
 Para esse desafio, temos os seguintes testes:
 
